@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 'S1-03', name: 'Química', prerequisites: [] },
             { id: 'S1-04', name: 'Morfología I', prerequisites: [] },
             { id: 'S1-05', name: 'Fundamentos Biológicos de la Medicina I', prerequisites: [] },
-            { id: 'S1-06', name: 'Inglés B1-I', prerequisites: [] },
+            { id: 'S1-06', name: 'Inglés A1-I', prerequisites: [] },
         ],
         'Semestre 2': [
             { id: 'S2-01', name: 'Comunicación Oral y Escrita II', prerequisites: ['S1-01'] },
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 'S2-04', name: 'Neuroanatomía', prerequisites: ['S1-04'] },
             { id: 'S2-05', name: 'Fundamentos Biológicos de la Medicina II', prerequisites: ['S1-05'] },
             { id: 'S2-06', name: 'Morfología II', prerequisites: ['S1-04'] },
-            { id: 'S2-07', name: 'Inglés B1-II', prerequisites: ['S1-06'] },
+            { id: 'S2-07', name: 'Inglés A2-1', prerequisites: ['S1-06'] },
         ],
         'Semestre 3': [
             { id: 'S3-01', name: 'Autogestión del Aprendizaje', prerequisites: [] },
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 'S3-05', name: 'Microbiología y Parasitología', prerequisites: ['S1-05', 'S2-05'] },
             { id: 'S3-06', name: 'Procedimientos Clínicos Básicos', prerequisites: ['S2-06'] },
             { id: 'S3-07', name: 'Bioética', prerequisites: [] },
-            { id: 'S3-08', name: 'Inglés B1-III', prerequisites: ['S2-07'] },
+            { id: 'S3-08', name: 'Inglés A2-II', prerequisites: ['S2-07'] },
             { id: 'S3-09', name: 'Deportivo I', prerequisites: [] },
         ],
         'Semestre 4': [
@@ -37,14 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 'S4-05', name: 'Taller de Anatomía Clínica', prerequisites: ['S2-04', 'S3-04', 'S2-06'] },
             { id: 'S4-06', name: 'Patología Integrada I', prerequisites: ['S2-04', 'S1-05', 'S2-05', 'S2-06', 'S3-04'] },
             { id: 'S4-07', name: 'MIC I', prerequisites: ['S1-05', 'S2-05', 'S2-04', 'S2-06', 'S3-04'] },
-            { id: 'S4-08', name: 'Inglés B2-I', prerequisites: ['S3-08'] },
+            { id: 'S4-08', name: 'Inglés B1-I', prerequisites: ['S3-08'] },
         ],
         'Semestre 5': [
             { id: 'S5-01', name: 'Comprensión de Contextos Sociales', prerequisites: ['S2-01'] },
             { id: 'S5-02', name: 'Farmacología General', prerequisites: ['S4-07', 'S4-04'] },
             { id: 'S5-03', name: 'Preclínicos Integrados (Semiología, Laboratorios, Imágenes)', prerequisites: ['S4-04', 'S4-05', 'S4-06'] },
             { id: 'S5-04', name: 'Patología Integrada II', prerequisites: ['S4-06'] },
-            { id: 'S5-05', name: 'Inglés B2-II', prerequisites: ['S4-08'] },
+            { id: 'S5-05', name: 'Inglés B1-II', prerequisites: ['S4-08'] },
         ],
         'Semestre 6': [
             { id: 'S6-01', name: 'Comprensión Contextos Culturales', prerequisites: ['S5-01'] },
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 'S6-05', name: 'Salud Pública', prerequisites: ['S4-02'] },
             { id: 'S6-06', name: 'Medicina Familiar', prerequisites: ['S4-03'] },
             { id: 'S6-07', name: 'Electivo Médico I', prerequisites: [] },
-            { id: 'S6-08', name: 'Inglés B2-III', prerequisites: ['S5-05'] },
+            { id: 'S6-08', name: 'Inglés B1-III', prerequisites: ['S5-05'] },
         ],
         'Semestre 7': [
             { id: 'S7-01', name: 'Ética y Responsabilidad Social', prerequisites: ['S6-01', 'S5-01'] },
